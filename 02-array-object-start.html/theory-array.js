@@ -37,6 +37,11 @@ const names = ['Ruslan', 'Igor', 'Maria', 'Bublik']
 // // console.log(names.includes('Igor')) 
 // // console.log(names.indexOf('Igor!') !== -1)
 
+const people = [
+    {name: 'Ruslan', budget: 4200},
+    {name: 'Maria', budget: 15100},
+    {name: 'Ilia', budget: 300},
+    {name: 'Oleg', budget: 7520},
+]
 
-
-
+console.log(people.indexOf({ budget: 7520}))
